@@ -1,6 +1,17 @@
-html, body {
+body {
     min-height: 100%;
     height: 100%;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+.container{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+    background-color: blueviolet;
 }
 body {
     padding: 0;
@@ -12,11 +23,9 @@ body {
 .conteudo {
     padding:10px;
     padding-bottom:60px; 
+    background-color: rgb(39, 142, 168);
  }  
-h1, h2{
-    text-align: center;
-}
-p{
+p, h1, h2{
     text-align: center;
 }
 .card-body{
@@ -25,4 +34,15 @@ p{
 }
 .text-center .img-responsive {
     margin: 0 auto;
+}
+#accordion{
+    text-align: center;
+    word-wrap: break-word;
+    width: 100%;
+}
+.card-header{
+    width: 100%;
+}
+.text{
+    word-wrap: break-word;
 }
